@@ -88,15 +88,12 @@ a {
 .page-nav-stud-log {
   color: var(--primary-text-color);
 }
-.pozition{
-  margin-right: -50px;
-  margin-left: auto;
-}
+
 .nav-link {
   display: flex;
-  
+  margin-left: auto;
   flex-wrap: wrap;
-  
+  margin-right: -50px;
   align-items: center;
 }
 .nav-link__link-right:first-child {

@@ -1,0 +1,23 @@
+.nav-menu .current {
+    position: relative;
+    color: var(--text-hover-color);
+  }
+  .nav-menu .current::after {
+    position: absolute;
+    bottom: -31px;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--text-hover-color);
+  }
+  .nav-menu {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .nav-menu__item-nav:not(:last-child) {
+    margin-right: 50px;
+  }
+  

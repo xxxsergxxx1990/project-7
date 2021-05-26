@@ -15,13 +15,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
-    <!--Заголовок сайта-->
-
     <header class="page-header">
       <div class="header-container">
         <nav class="page-nav">
@@ -65,8 +62,6 @@
       </div>
     </header>
     <main class="main-section">
-      <!--Секция Герой-->
-
       <section class="section-hero">
         <div class="container-her">
           <h1 class="section-hero-title">
@@ -78,8 +73,6 @@
           </button>
         </div>
       </section>
-
-      <!--Возможности-->
 
       <section class="features">
         <div class="container">
@@ -139,8 +132,6 @@
         </div>
       </section>
 
-      <!--Род занятий-->
-
       <section class="occupation-section">
         <div class="container">
           <h2 class="occupation-title">Чем мы занимаемся</h2>
@@ -167,8 +158,6 @@
           </ul>
         </div>
       </section>
-
-      <!--Команда-->
 
       <section class="section-comand">
         <div class="container">
@@ -356,7 +345,6 @@
           </ul>
         </div>
       </section>
-      <!--clients-->
 
       <section class="clients">
         <div class="container">
@@ -487,54 +475,48 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__close-btn" data-modal-close>
-
           <svg width="11" height="11">
             <use href="./images/icon/sprite.svg#icon-close"></use>
           </svg>
-
         </button>
         <h2 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h2>
         <form class="modal-form">
           <div class="block-form">
-
             <p class="text-form">Имя</p>
             <div class="input-hov">
               <input name="user-name" type="text" class="contact-modal-form" />
-            <svg class="icon-form" width="12" height="12">
-              <use href="./images/icon/sprite.svg#icon-Vector-form-1"></use>
-            </svg>
-          </div>  
-            
+              <svg class="icon-form" width="12" height="12">
+                <use href="./images/icon/sprite.svg#icon-Vector-form-1"></use>
+              </svg>
+            </div>
           </div>
           <div class="block-form">
             <p class="text-form">Телефон</p>
             <div class="input-hov">
-            <input name="user-tel" type="tel" class="contact-modal-form" />
-            <svg class="icon-form" width="13" height="13">
-              <use href="./images/icon/sprite.svg#icon-vector-form-2"></use>
-            </svg>
+              <input name="user-tel" type="tel" class="contact-modal-form" />
+              <svg class="icon-form" width="13" height="13">
+                <use href="./images/icon/sprite.svg#icon-vector-form-2"></use>
+              </svg>
             </div>
-            </div>
-          
+          </div>
+
           <div class="block-form">
             <p class="text-form">Почта</p>
             <div class="input-hov">
-            <input name="user-email" type="text" class="contact-modal-form" />
-            <svg class="icon-form" width="15" height="12">
-              <use href="./images/icon/sprite.svg#icon-Vector-form"></use>
-            </svg>
+              <input name="user-email" type="text" class="contact-modal-form" />
+              <svg class="icon-form" width="15" height="12">
+                <use href="./images/icon/sprite.svg#icon-Vector-form"></use>
+              </svg>
             </div>
-            
           </div>
           <div class="block-form">
             <p class="text-form">Комментарий</p>
-           
+
             <textarea
               class="textarea-modal-form"
               name=" user-text"
               placeholder="Введите текст"
             ></textarea>
-            
           </div>
           <input
             type="checkbox"
@@ -544,7 +526,7 @@
           />
           <label class="checkbox-label" for="checkbox">
             Соглашаюсь с рассылкой и принимаю
-            <a href="" class="checkbox-link">   Условия договора</a>
+            <a href="" class="checkbox-link"> Условия договора</a>
           </label>
           <button class="button-form">Отправить</button>
         </form>

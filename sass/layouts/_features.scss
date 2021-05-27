@@ -5,11 +5,11 @@
     margin-right: auto;
   }
   
-  .features-container {
+  .features__container {
     display: flex;
     align-self: start;
   }
-  .features-container__features-box {
+  .features__box {
     width: 100%;
     height: 120px;
     border-radius: 4px;
@@ -19,10 +19,10 @@
     justify-content: center;
     margin-bottom: 30px;
   }
-  .features-container__features-icon {
+  .features__icon {
     width: 70px;
     height: 70px;
   }
-  .features-container__features-mini:not(:last-child) {
+  .features__mini:not(:last-child) {
     margin-right: 30px;
   }

@@ -1,8 +1,8 @@
-.nav-menu .current {
+.menu .current {
     position: relative;
     color: var(--text-hover-color);
   }
-  .nav-menu .current::after {
+  .menu .current::after {
     position: absolute;
     bottom: -31px;
     display: block;
@@ -12,12 +12,12 @@
     border-radius: 2px;
     background-color: var(--text-hover-color);
   }
-  .nav-menu {
+  .menu {
     display: flex;
     margin-left: auto;
   }
   
-  .nav-menu__item-nav:not(:last-child) {
+  .menu__item:not(:last-child) {
     margin-right: 50px;
   }
   

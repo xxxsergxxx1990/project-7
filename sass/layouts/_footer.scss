@@ -14,14 +14,14 @@
   }
   
   
-  .page-footer {
+  .footer {
     background-color: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
   }
   
   
-  .adress-mail {
+  .footer__adress-mail {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
@@ -33,20 +33,20 @@
   
   
   
-  .list-footer__footer-icons-item:not(:last-child) {
+  .footer__item:not(:last-child) {
     margin-right: 10px;
   }
-  .list-footer {
+  .footer__list {
     display: flex;
     align-items: center;
   }
   
   
-  .footer-icons-svg {
+  .footer__svg {
     width: 20px;
     height: 20px;
     fill: var(--primary-white-color);
   }
-  .icon-content {
+  .footer__icon {
     margin-left: 70px;
   }

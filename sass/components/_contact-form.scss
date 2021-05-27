@@ -31,12 +31,12 @@
     transition-property:svg;
   
   }
-  .block-form{
+  .modal__block{
     position: relative;
     margin-bottom: 10px;
   }
   
-  .icon-form{
+  .modal__icon{
     position: absolute;
     bottom: 13px;
     left: 12px;
@@ -59,18 +59,18 @@
     pointer-events: none;
   }
   
-  .modal-tittle {
+  .telegram__tittle {
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
   }
-  .text-form {
+  .modal__text {
     padding-bottom: 4px;
   }
   
-  .contact-modal-form {
+  .modal__contact{
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
@@ -79,13 +79,13 @@
     height: 40px; 
     outline: none;
   }
-  .contact-modal-form:hover,
-  .contact-modal-form:focus{
+  .modal__contact:hover,
+  .modal__contact:focus{
     border-color: var(--text-hover-color);
   }
   
-  .input-hov:hover,
-  .input-hov:focus{
+  .modal__input:hover,
+  .modal__input:focus{
     fill: var(--text-hover-color);
     
   } 
@@ -95,7 +95,7 @@
   
   
   
-  .textarea-modal-form {
+  .modal__textarea{
     height: 120px;
     width: 100%;
     outline: none;
@@ -104,12 +104,12 @@
     border-radius: 4px;
     resize: none;
   }
-  .textarea-modal-form:hover,
-  .textarea-modal-form:focus{
+  .modal__textarea:hover,
+  .modal__textarea:focus{
     border-color: var(--text-hover-color);
   }
   
-  .checkbox-label {
+  .checkbox__label {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -119,7 +119,7 @@
     align-items: center;
     justify-content: center;
   }
-  .checkbox-label::before {
+  .checkbox__label::before {
     content: "";
     display: inline-block;
     width: 16px;
@@ -130,12 +130,12 @@
     cursor: pointer;
   }
   
-  .checkbox-label:focus + .checkbox-label::before {
+  .checkbox__label:focus + .checkbox__label::before {
     border-color: var(--text-hover-color);}
   
   
   
-  .checkbox:checked + .checkbox-label::before{
+  .checkbox:checked + .checkbox__label::before{
     background-image: url(../images/icon/vector4.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +146,7 @@
    }
    
   
-   .checkbox-link {
+   .checkbox__link {
     color: var(--text-hover-color);
     
   }

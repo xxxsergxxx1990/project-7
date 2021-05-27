@@ -1,9 +1,9 @@
-.page-header {
+.header {
     background: var(--primary-white-color);
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  .header-container {
+  .header__container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -14,7 +14,7 @@
   }
   
   
-  .page-nav {
+  .header__nav {
     display: flex;
     align-items: center;
   }

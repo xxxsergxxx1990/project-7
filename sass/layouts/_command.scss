@@ -1,10 +1,10 @@
-.section-comand {
+.comand {
     background-color: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
   }
   
-  .team-member {
+  .team__member {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
@@ -38,18 +38,18 @@
   .text-acent-mail:hover {
     color: var(--text-hover-color);
   }
-  .comand-title {
+  .comand__title {
     margin-bottom: 50px;
   }
   
-  .one-team {
+  .team {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
   }
   
-  .one-team__team-image {
+  .team__list {
     background-color: var(--primary-white-color);
     margin-left: 30px;
     margin-top: 30px;
@@ -58,7 +58,7 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  .team-man {
+  .team__man {
     padding: 30px 32px;
   }
   
